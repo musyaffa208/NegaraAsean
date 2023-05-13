@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFlag"
+    android:background="@color/one"
+    android:orientation="vertical"
+    android:id="@+id/rDetail">
+
+
+        <ImageView
+            android:id="@+id/imgflag"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:scrollbars="vertical"
+            android:src="@drawable/brunei"/>
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brunei Darussalam"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/ibukota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Bandar Seri Begawan"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:textSize="20sp"
+            android:text="      Brunei Darussalam merdeka pada tanggal 1 Januari 1984 setelah hampir 100 tahun dijajah oleh Inggris. Namun, perjuangan kemerdekaan Brunei dimulai pada awal abad ke-20 ketika raja-raja Brunei mulai menentang kekuasaan Inggris yang semakin membatasi otonomi mereka.
+            \n \n       Pada tahun 1959, sebuah Undang-Undang Konstitusi diberlakukan di Brunei yang memberikan hak-hak politik kepada warga Brunei dan memungkinkan mereka untuk memilih wakil mereka sendiri untuk duduk di dewan legislatif. Namun, Inggris tetap mempertahankan kendali penuh atas urusan luar negeri dan keamanan dalam negeri Brunei."/>
+</LinearLayout>
